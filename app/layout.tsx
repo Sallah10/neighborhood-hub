@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { usePathname } from 'next/navigation'
 import Nav from "./nav";
 
 const geistSans = localFont({
@@ -24,12 +25,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const pathname = usePathname()
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-white antialiased`}
       >
-        <Nav/>
+        {pathname !== '/' && (
+            <Nav/>
+          )}
         {children}
       </body>
     </html>
