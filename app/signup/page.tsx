@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import google from "../assets/google.png"
 import email from "../assets/email.png"
@@ -24,16 +25,18 @@ const Signup = () => {
                     </div>
                     <button className='button self-center w-[100%] mt-2'> Sign Up</button>
                 </form>
-                <small className='text-black text-lg'>
-                    Don&apos;t have an account? <a href="/signup" className='ml-1'>Sign Up Here</a>
+                <small className='text-[#7A7B7E] text-lg'>
+                    Already have an account? <a href="/login" className='ml-1 text-[#1A222E]'>Sign In</a>
                 </small>
-                <div className="text-black flex justify-center items-center my-0 p-0">
-                    <span className='m-0 p-0'>OR</span>
+                <div className="flex items-center justify-between w-full mx-auto">
+                    <hr className="w-full mr-4" />
+                    <span className="text-gray-500 ">OR</span>
+                    <hr className="w-full ml-4" />
                 </div>
                 <button
-                    className="m-0 text-base flex gap-2 hover:text-gray-400"
+                    className="text-lg flex-wrap flex gap-2 border-2 border-[#D6E1E8] py-4 px-6 rounded-md hover:text-gray-500 items-center text-[#1A222E]"
                 >
-                    Sign in with Google <Image src={google} alt="google-icon" width={20} height={20} />
+                    Sign Up with Google <Image src={google} alt="google-icon" width={20} height={20} />
                 </button>
             </div>
         </>
