@@ -1,7 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import ClientLayout from "./clientLayout";
-import { metadata } from './config/metadata'
+import ClientLayout from "./ClientLayout"
 
 
 const geistSans = localFont({
@@ -16,7 +15,6 @@ const geistMono = localFont({
 });
 
 
-export { metadata }
 
 export default function RootLayout({
   children,

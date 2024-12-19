@@ -10,8 +10,8 @@ export default function Home() {
           <Image src={logo} alt="logo" />
           <h2 className="text-[#364C6F] text-lg self-center"> Get On Funded </h2>
         </div>
-        <Link href="/login">
-          <button className="bg-[#D2E892] p-4 text-[#364C6F] text-xl max-w-[194px] self-center rounded-lg">Let&apos;s Get Started</button>
+        <Link href="/login" className="flex self-center">
+          <button className="button">Let&apos;s Get Started</button>
         </Link>
       </div>
     </>

@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer components {
+  .button {
+    @apply bg-[#D2E892] p-4 text-[#364C6F] text-xl max-w-[194px] rounded-lg;
+  }
+  .imput {
+    @apply bg-[#364C6F] text-center text-[#364C6F] pl-2 text-bold text-2xl;
+  }
+  .input-container {
+    @apply flex flex-row gap-4 items-center border-[grey] shadow-md py-4 px-2;
+  }
+}
