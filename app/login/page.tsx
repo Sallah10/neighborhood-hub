@@ -9,7 +9,7 @@ const Login = () => {
     return (
         <div>
             <div className='flex flex-col justify-evenly gap-8 items-center mx-auto'>
-                <h1 className='text-4xl text-[#364C6F]'> Create an Account</h1>
+                <h1 className='text-h1'> Create an Account</h1>
                 <form action="" className='gap-4 flex flex-col'>
                     <div className='input-container'>
                         <Image src={email} alt='email' />

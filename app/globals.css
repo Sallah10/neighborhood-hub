@@ -30,4 +30,19 @@ body {
   .input-container {
     @apply flex flex-row gap-4 items-center border-[grey] shadow-md py-4 px-2;
   }
+  .text-h1 {
+    @apply text-4xl text-[#364C6F];
+  }
+  .text-h2 {
+    @apply text-3xl text-[#364C6F];
+  }
+  .text-h3 {
+    @apply text-2xl text-[#364C6F];
+  }
+  .text-p {
+    @apply text-xl text-[#364C6F];
+  }
+  .text-bold {
+    @apply text-6xl text-[#364C6F];
+  }
 }
