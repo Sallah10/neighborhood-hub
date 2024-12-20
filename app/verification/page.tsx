@@ -10,17 +10,17 @@ const Verification = () => {
                 <h1 className='text-h1'>Verification</h1>
                 <h2 className='text-h2'> Verify OTP</h2>
                 <p className='text-p'>We have sent the Verification code!</p>
-                <div className='flex flex-row gap-10 self-center '>
-                    <div className='flex border-b-8 pb-3 border-[gray-900]'>
+                <div className='flex flex-row gap-8 self-center '>
+                    <div className='flex border-b-4 pb-3 border-[gray-900] w-[50px] items-center justify-center'>
                         <Image src={dot} alt='dot' width={20} height={20} />
                     </div>
-                    <div className='flex border-b-4 pb-3 border-[gray-700]'>
+                    <div className='flex border-b-4 pb-3 border-[gray-700]  w-[50px] items-center justify-center'>
                         <Image src={dot} alt='dot' width={20} height={20} />
                     </div>
-                    <div className='flex border-b-4 pb-3 border-[gray-700]'>
+                    <div className='flex border-b-4 pb-3 border-[gray-700] w-[50px] items-center justify-center'>
                         <Image src={dot} alt='dot' width={20} height={20} />
                     </div>
-                    <div className='flex border-b-4 pb-3 border-[gray-700]'>
+                    <div className='flex border-b-4 pb-3 border-[gray-700] w-[50px] items-center justify-center'>
                         <Image src={dot} alt='dot' width={20} height={20} />
                     </div>
                 </div>
