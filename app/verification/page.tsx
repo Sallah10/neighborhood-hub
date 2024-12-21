@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Verification = () => {
     return (
         <>
-            <div className='flex flex-col w-full items-center justify-center gap-8 container mx-auto'>
+            <div className='main'>
                 <h1 className='text-h1'>Verification</h1>
                 <h2 className='text-h2'> Verify OTP</h2>
                 <p className='text-p'>We have sent the Verification code!</p>
