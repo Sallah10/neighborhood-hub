@@ -39,7 +39,20 @@ const Dashboard = () => {
                         <div className='flex justify-between items-center mx-2'>
                             <div className='flex flex-col gap-4'>
                                 <p className='text-p text-green-500'>Raised of <span className='text-black text-h3'>85%</span></p>
-                                <h3 className='text-xl text-gray-400 self-center'><span className='button text-green-600 flex flex-wrap'>Raise Goal</span> <span className='flex self-center items-center justify-between'>$30000</span></h3>
+                                <h3 className='text-xl text-gray-400 self-center flex flex-row gap-1'><span className='button text-green-600'>Raise Goal</span> <span className='flex self-center'>$30000</span></h3>
+                            </div>
+                            <button className='button text-white bg-blue-300 self-end'> Subscribe </button>
+                        </div>
+                    </div>
+                    <div className='bg-white flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full pb-6'>
+                        <Image src={img1} alt='card-image' width={600} />
+                        <h2 className='text-h2 mx-2'>Raising Capital for inhouse Startup</h2>
+                        <p className='text-p mx-2'>A unique Concept for Everyday transport leisure & Biking fun </p>
+                        <hr />
+                        <div className='flex justify-between items-center mx-2'>
+                            <div className='flex flex-col gap-4'>
+                                <p className='text-p text-green-500'>Raised of <span className='text-black text-h3'>85%</span></p>
+                                <h3 className='text-xl text-gray-400 self-center flex flex-row gap-1'><span className='button text-green-600'>Raise Goal</span> <span className='flex self-center'>$30000</span></h3>
                             </div>
                             <button className='button text-white bg-blue-300 self-end'> Subscribe </button>
                         </div>
