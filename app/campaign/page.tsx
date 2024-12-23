@@ -1,6 +1,13 @@
 import Image from 'next/image'
 import flash from '../assets/flash.png'
 import img1 from '../assets/dash img1.png'
+import campaignImg from '../assets/campaignImg.png'
+import humImg1 from '../assets/humImg.png'
+import humImg2 from '../assets/humImg2.png'
+import message from '../assets/message.png'
+import star from '../assets/star.png'
+
+
 
 const Campaign = () => {
     return (
@@ -13,14 +20,14 @@ const Campaign = () => {
                         <h3 className='text-h3 text-[#D2E892] mr-4 border-2 border-r-2 border-[#D2E892] p-2'>Total Investor: <span className='text-h2 text-white'>5</span></h3>
                         <div className='flex flex-row gap-2'>
                             <Image src={flash} alt='flash' width={20} height={5} className='fill-[#D2E892] h-[30px] w-[30px]' />
-                            <h3 className='text-h3 text-[#D2E892]'>Raised Amount <span className='text-[#D2E892]'>$<span className='text-white'>50,000</span></span></h3>
+                            <h3 className='text-h3 text-[#D2E892]'>Raised Amount: <span className='text-[#D2E892]'>$<span className='text-white'>50,000</span></span></h3>
                         </div>
                     </div>
                 </div>
                 <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2]  rounded-t-2xl p-4 w-full h-full -mt-10 flex flex-col gap-4'>
                     <div className='bg-white flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full'>
                         <Image src={img1} alt='card-image' width={600} height={800} className='max-w-full' />
-                        <div className='flex flex-col gap-4  pb-6 px-4'>
+                        <div className='flex flex-col gap-4 pb-6 px-4'>
                             <h2 className='text-h2 mx-2'>Raising Capital for inhouse Startup</h2>
                             <p className='text-p text-left'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, sapiente velit.as sunt quis voluptatum officiis voluptate molestiae provident delectus commodi repudiandae cumque. Autem, quasi.</p>
                             <hr />
@@ -34,6 +41,41 @@ const Campaign = () => {
                                     <h2 className='text-h2 self-center'>205</h2>
                                 </div>
                             </div>
+                        </div>
+                        <button className='button'>Withdraw Fund</button>
+                    </div>
+                </div>
+                <div>
+                    <Image src={campaignImg} alt='Campaign-Details Image' />
+                    <h2>Your Campaign Backed by following investor</h2>
+                    <p>You can message & invite for meeting!</p>
+                    <div className='card'>
+                        <div>
+                            <Image src={humImg1} alt='Campaign-Details Image' />
+                            <div>
+                                <h3>Andy Murray</h3>
+                                <p>Angel Investor & Founder of Aprilla Ev</p>
+                                <Image src={star} alt='Campaign-Details Image' />
+                            </div>
+                            <div>
+                                <h1>$10,000</h1>
+                                <small>Invested Amt</small>
+                            </div>
+                        </div>
+                        <div>
+                            <Image src={message} alt='Campaign-Details Image' />
+                            <p>Send a Message</p>
+                        </div>
+                    </div>
+                    <button className='button'>View More</button>
+                    <h1> Your Campaign Follower</h1>
+                    <p>your campaign follower:</p>
+                    <div>
+                        <div>
+                            <Image src={humImg2} alt='Campaign-Details Image' />
+                            <h3>Alex Patrick</h3>
+                            <p>Angel Investor & Founder of Aprilla Ev</p>
+                            <Image src={star} alt='Campaign-Details Image' />
                         </div>
                     </div>
                 </div>
