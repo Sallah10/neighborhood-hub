@@ -42,42 +42,62 @@ const Campaign = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className='button'>Withdraw Fund</button>
                     </div>
+                    <button className='button self-center'>Withdraw Fund</button>
                 </div>
-                <div>
+                <div className='flex flex-col gap-4 items-center justify-center'>
                     <Image src={campaignImg} alt='Campaign-Details Image' />
-                    <h2>Your Campaign Backed by following investor</h2>
-                    <p>You can message & invite for meeting!</p>
-                    <div className='card'>
-                        <div>
-                            <Image src={humImg1} alt='Campaign-Details Image' />
-                            <div>
-                                <h3>Andy Murray</h3>
-                                <p>Angel Investor & Founder of Aprilla Ev</p>
-                                <Image src={star} alt='Campaign-Details Image' />
+                    <h2 className='text-h2 flex self-center '>Your Campaign Backed by following investors:</h2>
+                    <p className='text-p'>You can message & invite for meeting!</p>
+                    <div className='card gap-4 max-w-[350px]'>
+                        <div className='flex gap-2'>
+                            <Image src={humImg1} alt='Campaign-Details Image' className='w-10 h-10 flex-start flex' />
+                            <div className='flex flex-col gap-2'>
+                                <h3 className='text-h3 text-black'>Andy Murray</h3>
+                                <p className='text-md text-[#4468A1]'>Angel Investor & Founder of Aprilla Ev</p>
+                                <Image src={star} alt='Campaign-Details Image' width={70} height={70} />
                             </div>
-                            <div>
-                                <h1>$10,000</h1>
-                                <small>Invested Amt</small>
+                            <div className='flex flex-col gap-2'>
+                                <h3 className='text-h3'>$10,000</h3>
+                                <div className='p-2 border-2 border-[#D2E892] rounded-lg'>
+                                    <small className='text-md text-[#364C6F]'>Invested Amt</small>
+                                </div>
                             </div>
                         </div>
-                        <div>
+                        <div className='flex gap-4 items-center'>
                             <Image src={message} alt='Campaign-Details Image' />
-                            <p>Send a Message</p>
+                            <p className='text-p'>Send a Message</p>
                         </div>
                     </div>
-                    <button className='button'>View More</button>
-                    <h1> Your Campaign Follower</h1>
-                    <p>your campaign follower:</p>
-                    <div>
-                        <div>
+                    <button className='button self-center'>View More</button>
+                    {/* <h2 className='text-h2'> Your Campaign Follower</h2>
+                    <p className='text-p'>your campaign follower:</p>
+                    <div className='grid grid-cols-1 gap-4'>
+                        <div className='card'>
                             <Image src={humImg2} alt='Campaign-Details Image' />
-                            <h3>Alex Patrick</h3>
-                            <p>Angel Investor & Founder of Aprilla Ev</p>
+                            <h3 className='text-h3'>Alex Patrick</h3>
+                            <p className='text-p'>Angel Investor & Founder of Aprilla Ev</p>
                             <Image src={star} alt='Campaign-Details Image' />
                         </div>
-                    </div>
+                        <div className='card'>
+                            <Image src={humImg2} alt='Campaign-Details Image' />
+                            <h3 className='text-h3'>Alex Patrick</h3>
+                            <p className='text-p'>Angel Investor & Founder of Aprilla Ev</p>
+                            <Image src={star} alt='Campaign-Details Image' />
+                        </div>
+                        <div className='card'>
+                            <Image src={humImg2} alt='Campaign-Details Image' />
+                            <h3 className='text-h3'>Alex Patrick</h3>
+                            <p className='text-p'>Angel Investor & Founder of Aprilla Ev</p>
+                            <Image src={star} alt='Campaign-Details Image' />
+                        </div>
+                        <div className='card'>
+                            <Image src={humImg2} alt='Campaign-Details Image' />
+                            <h3 className='text-h3'>Alex Patrick</h3>
+                            <p className='text-p'>Angel Investor & Founder of Aprilla Ev</p>
+                            <Image src={star} alt='Campaign-Details Image' />
+                        </div>
+                    </div> */}
                 </div>
             </div>
         </>

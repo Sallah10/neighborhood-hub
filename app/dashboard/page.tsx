@@ -58,6 +58,7 @@ const Dashboard = () => {
                         </div>
                     </div>
                 </div>
+                <button className='button'> See More Campaign </button>
             </div>
         </>
     )
