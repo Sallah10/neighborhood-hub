@@ -1,9 +1,9 @@
-// import Image from 'next/image'
+import Image from 'next/image'
 // import flash from '../assets/flash.png'
 // import img1 from '../assets/dash img1.png'
 // import campaignImg from '../assets/campaignImg.png'
 // import humImg1 from '../assets/humImg.png'
-// import humImg2 from '../assets/humImg2.png'
+import humImg2 from '../assets/humImg2.png'
 // import message from '../assets/message.png'
 // import star from '../assets/star.png'
 
@@ -12,10 +12,11 @@
 const Campaign = () => {
     return (
         <>
-            <div className=' text-black'>
-                hhhhh
-                <h1 className='text-h1'> Campaign Details </h1>
-                {/* <div className='bg-gradient-to-r from-[#4468A1] to-[#706a6a] gap-4 flex flex-col px-4 pt-8 pb-12'>
+            {/* <div className=' text-black'> */}
+            hhhhh
+            <Image src={humImg2} />
+            {/* <h1 className='text-h1'> Campaign Details </h1> */}
+            {/* <div className='bg-gradient-to-r from-[#4468A1] to-[#706a6a] gap-4 flex flex-col px-4 pt-8 pb-12'>
                     <h2 className='text-h2'> Fundraising for Ev Startup </h2>
                     <div className='flex gap-4'>
                         <h3 className='text-h3 text-[#D2E892] mr-4 border-2 border-r-2 border-[#D2E892] p-2'>Total Investor: <span className='text-h2 text-white'>5</span></h3>
@@ -46,7 +47,7 @@ const Campaign = () => {
                     </div>
                     <button className='button self-center'>Withdraw Fund</button>
                 </div> */}
-                {/* <div className='flex flex-col gap-4 items-center justify-center'>
+            {/* <div className='flex flex-col gap-4 items-center justify-center'>
                     <Image src={campaignImg} alt='Campaign-Details Image' />
                     <h2 className='text-h2 flex self-center '>Your Campaign Backed by following investors:</h2>
                     <p className='text-p'>You can message & invite for meeting!</p>
@@ -71,7 +72,7 @@ const Campaign = () => {
                         </div>
                     </div>
                     <button className='button self-center'>View More</button> */}
-                {/* <h2 className='text-h2'> Your Campaign Follower</h2>
+            {/* <h2 className='text-h2'> Your Campaign Follower</h2>
                     <p className='text-p'>your campaign follower:</p>
                     <div className='grid grid-cols-1 gap-4'>
                         <div className='card'>
@@ -99,8 +100,8 @@ const Campaign = () => {
                             <Image src={star} alt='Campaign-Details Image' />
                         </div>
                     </div> */}
-                {/* </div> */}
-            </div>
+            {/* </div> */}
+            {/* </div> */}
         </>
     )
 }
