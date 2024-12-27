@@ -47,7 +47,7 @@ const CampaignDetails = () => {
                 </div>
                 <div className='flex flex-col gap-4 items-center justify-center'>
                     <Image src={campaignImg} alt='Campaign-Details Image' />
-                    <h2 className='text-h2 flex self-center '>Your Campaign Backed by following investors:</h2>
+                    <h2 className='ml-auto text-h2'>Your Campaign Backed by following investors:</h2>
                     <p className='text-p'>You can message & invite for meeting!</p>
                     <div className='card gap-4 max-w-[350px]'>
                         <div className='flex gap-2'>
