@@ -45,12 +45,12 @@ const CampaignDetails = () => {
                     </div>
                     <button className='button self-center'>Withdraw Fund</button>
                 </div>
-                <div className='flex flex-col gap-4 items-center justify-center'>
+                <div className='flex flex-col gap-4 items-center justify-center bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2]'>
                     <Image src={campaignImg} alt='Campaign-Details Image' />
                     <h2 className='ml-auto text-h2'>Your Campaign Backed by following investors:</h2>
                     <p className='text-p'>You can message & invite for meeting!</p>
                     <div className='card gap-4 max-w-[350px]'>
-                        <div className='flex gap-2'>
+                        <div className='flex gap-2 bg-white max-w-[300px]'>
                             <Image src={humImg1} alt='Campaign-Details Image' className='w-10 h-10 flex-start flex' />
                             <div className='flex flex-col gap-2'>
                                 <h3 className='text-h3 text-black'>Andy Murray</h3>
@@ -72,7 +72,7 @@ const CampaignDetails = () => {
                     <button className='button self-center'>View More</button>
                     <h2 className='text-h2'> Your Campaign Follower</h2>
                     <p className='text-p'>your campaign follower:</p>
-                    <div className='grid grid-cols-1 gap-4'>
+                    {/* <div className='grid grid-cols-1 gap-4'>
                         <div className='card'>
                             <Image src={humImg2} alt='Campaign-Details Image' />
                             <h3 className='text-h3'>Alex Patrick</h3>
@@ -97,7 +97,7 @@ const CampaignDetails = () => {
                             <p className='text-p'>Angel Investor & Founder of Aprilla Ev</p>
                             <Image src={star} alt='Campaign-Details Image' />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>
