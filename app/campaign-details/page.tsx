@@ -5,10 +5,11 @@ import flash from '../assets/flash.png'
 import img1 from '../assets/dash img1.png'
 import campaignImg from '../assets/campaignImg.png'
 import humImg1 from '../assets/humImg.png'
-import humImg2 from '../assets/humImg2.png'
+// import humImg2 from '../assets/humImg2.png'
 import message from '../assets/message.png'
 import star from '../assets/star.png'
 
+// creat them one by one
 const CampaignDetails = () => {
     return (
         <>
