@@ -14,7 +14,7 @@ export default function ClientLayout({ children }: RootLayoutProps) {
             {pathname !== '/' && (
                 <Nav />
             )}
-            <main>{children}</main>
+            <main className='lg:w-full'>{children}</main>
         </>
     )
 }
