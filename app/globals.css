@@ -50,6 +50,6 @@ body {
     @apply text-6xl text-[#364C6F];
   }
   .card {
-    @apply bg-white flex rounded-xl flex-col gap-4 max-h-[100vh] w-full p-6;
+    @apply bg-white flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full p-6;
   }
 }
