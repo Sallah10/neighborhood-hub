@@ -80,6 +80,24 @@ const CampaignDetails = () => {
                             <p className='text-p'>Angel Investor & Founder of Aprilla Ev</p>
                             <Image src={star} alt='Campaign-Details Image' width={70} height={70} />
                         </div>
+                        <div className='card mx-4'>
+                            <Image src={humImg2} alt='Campaign-Details Image' />
+                            <h3 className='text-h3'>Alex Patrick</h3>
+                            <p className='text-p'>Angel Investor & Founder of Aprilla Ev</p>
+                            <Image src={star} alt='Campaign-Details Image' />
+                        </div>
+                        <div className='card mx-4'>
+                            <Image src={humImg2} alt='Campaign-Details Image' />
+                            <h3 className='text-h3'>Alex Patrick</h3>
+                            <p className='text-p'>Angel Investor & Founder of Aprilla Ev</p>
+                            <Image src={star} alt='Campaign-Details Image' />
+                        </div>
+                        <div className='card mx-4'>
+                            <Image src={humImg2} alt='Campaign-Details Image' />
+                            <h3 className='text-h3'>Alex Patrick</h3>
+                            <p className='text-p'>Angel Investor & Founder of Aprilla Ev</p>
+                            <Image src={star} alt='Campaign-Details Image' />
+                        </div>
                     </div>
                 </div>
             </div>
