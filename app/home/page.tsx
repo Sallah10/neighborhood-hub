@@ -2,7 +2,16 @@
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <div>
+        <div>
+          crad
+        </div>
+        <div>
+          home
+        </div>
+      </div>
+    </>
   )
 }
 
