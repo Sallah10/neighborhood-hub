@@ -3,6 +3,7 @@ import Image from 'next/image'
 // import img1 from '../assets/dash img1.png'
 import cardImg from '../assets/homeImage.png'
 import avatar from '../assets/avatar.png'
+import avatar2 from '../assets/avatar2.png'
 
 
 const Home = () => {
@@ -26,33 +27,34 @@ const Home = () => {
           <select name="categories" id="categories" className='px-4 py-4 text-p w-full rounded-xl border-r-8 border-transparent outline outline-[#D2DEF1]'>
             <option value="categories">All categories</option>
           </select>
-          <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full pb-4'>
-            <div>
-              <Image src={avatar} alt='card-image' width={600} />
-              <div>
-                <h2 className='text-h2 text-black'>Ecommerce Platform</h2>
-                <h3 className='text-[#838383] text-xl'> Web Development</h3>
+          <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full px-4 py-4'>
+            <div className='flex gap-2'>
+              <Image src={avatar} alt='card-image' width={600} className='w-[60px] h-[60px]' />
+              <div className='flex flex-col gap-1'>
+                <h3 className='text-h3 text-black'>Ecommerce Platform</h3>
+                <h3 className='text-[#838383] text-lg'> Web Development</h3>
                 <p className='text-p text-green-500'>Raised of <span className='text-black text-h3'>85%</span></p>
               </div>
-              <p className='text-[#838383] text-xl'>September 23. 2024</p>
             </div>
-            <Image src={cardImg} alt='card-image' width={600} />
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptates, deserunt autem soluta labore, eius quo sequi quos id dignissimos rem! Autem dicta ut et eius facilis. Saepe, atque iusto.</h3>
-            <button className='button text-white bg-blue-300 self-end'> View Details </button>
+            <p className='text-[#838383] text-lg'>September 23. 2024</p>
+            <Image src={cardImg} alt='card-image' width={600} className='rounded-md' />
+            <h3 className='text-[#364C6F]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptates, deserunt autem soluta labore, eius quo sequi quos id dignissimos rem! Autem dicta ut et eius facilis. Saepe, atque iusto.</h3>
+            <button className='button text-[#364C6F] bg-[#D2E892] flex self-center'> View Details </button>
           </div>
-          {/* <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full pb-4'>
-            <Image src={img1} alt='card-image' width={600} />
-            <h2 className='text-h2 mx-2 text-center'>Raising Capital for inhouse Startup</h2>
-            <p className='text-p mx-2 text-center'>A unique Concept for Everyday transport leisure & Biking fun </p>
-            <hr className='bg-white' />
-            <div className='flex justify-between items-center mx-2'>
-              <div className='flex flex-col gap-4'>
+          <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full px-4 py-4'>
+            <div className='flex gap-2'>
+              <Image src={avatar2} alt='card-image' width={600} className='w-[60px] h-[60px]' />
+              <div className='flex flex-col gap-1'>
+                <h3 className='text-h3 text-black'>Ecommerce Platform</h3>
+                <h3 className='text-[#838383] text-lg'> Web Development</h3>
                 <p className='text-p text-green-500'>Raised of <span className='text-black text-h3'>85%</span></p>
-                <h3 className='text-xl text-gray-400 self-center flex flex-row gap-1'><span className='button text-green-600'>Raise Goal</span> <span className='flex self-center'>$30000</span></h3>
               </div>
-              <button className='button text-white bg-blue-300 self-end'> Subscribe </button>
             </div>
-          </div> */}
+            <p className='text-[#838383] text-lg'>September 23. 2024</p>
+            <Image src={cardImg} alt='card-image' width={600} className='rounded-md' />
+            <h3 className='text-[#364C6F]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptates, deserunt autem soluta labore, eius quo sequi quos id dignissimos rem! Autem dicta ut et eius facilis. Saepe, atque iusto.</h3>
+            <button className='button text-[#364C6F] bg-[#D2E892] flex self-center'> View Details </button>
+          </div>
         </div>
       </div>
     </>
