@@ -1,6 +1,9 @@
 // import React from 'react'
 import Image from 'next/image'
-import img1 from '../assets/dash img1.png'
+// import img1 from '../assets/dash img1.png'
+import cardImg from '../assets/homeImage.png'
+import avatar from '../assets/avatar.png'
+
 
 const Home = () => {
   return (
@@ -25,7 +28,7 @@ const Home = () => {
           </select>
           <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full pb-4'>
             <div>
-              <Image src={img1} alt='card-image' width={600} />
+              <Image src={avatar} alt='card-image' width={600} />
               <div>
                 <h2 className='text-h2 text-black'>Ecommerce Platform</h2>
                 <h3 className='text-[#838383] text-xl'> Web Development</h3>
@@ -33,11 +36,11 @@ const Home = () => {
               </div>
               <p className='text-[#838383] text-xl'>September 23. 2024</p>
             </div>
-            <Image src={img1} alt='card-image' width={600} />
+            <Image src={cardImg} alt='card-image' width={600} />
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptates, deserunt autem soluta labore, eius quo sequi quos id dignissimos rem! Autem dicta ut et eius facilis. Saepe, atque iusto.</h3>
             <button className='button text-white bg-blue-300 self-end'> View Details </button>
           </div>
-          <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full pb-4'>
+          {/* <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full pb-4'>
             <Image src={img1} alt='card-image' width={600} />
             <h2 className='text-h2 mx-2 text-center'>Raising Capital for inhouse Startup</h2>
             <p className='text-p mx-2 text-center'>A unique Concept for Everyday transport leisure & Biking fun </p>
@@ -49,7 +52,7 @@ const Home = () => {
               </div>
               <button className='button text-white bg-blue-300 self-end'> Subscribe </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
