@@ -1,6 +1,9 @@
 import Image from "next/image";
 import logo from "./assets/logo.png"
 import Link from "next/link";
+import Payment from "./payment";
+import Subscribe from "./subscribe";
+import Success from "./success";
 
 export default function Home() {
   return (
@@ -13,6 +16,11 @@ export default function Home() {
         <Link href="/login" className="flex self-center">
           <button className="button">Let&apos;s Get Started</button>
         </Link>
+      </div>
+      <div className="flex flex-col gap-4 self-center">
+        <Payment />
+        <Subscribe />
+        <Success />
       </div>
     </>
   );
