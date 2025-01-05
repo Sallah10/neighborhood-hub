@@ -3,7 +3,7 @@ import React from 'react'
 const Subscribe = () => {
     return (
         <>
-            <div className='flex flex-col w-full items-center justify-center gap-6 container bg-white'>
+            <div className='flex flex-col w-full items-center gap-6  bg-white'>
                 <h2 className='text-h2'> Subscribe To EV Startup</h2>
                 <div className='flex flex-col gap-2'>
                     <p className='text-p'>Amount</p>

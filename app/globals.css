@@ -22,8 +22,8 @@ body {
 
 @layer components {
   .main {
-    /* mx-auto */
-    @apply flex flex-col w-full items-center justify-center gap-8 container;
+    /* mx-auto  justify-center container*/
+    @apply flex flex-col w-full items-center gap-8;
   }
   .button {
     @apply bg-[#D2E892] p-4 text-[#364C6F] text-xl max-w-[194px] rounded-lg;

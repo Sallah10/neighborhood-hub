@@ -5,7 +5,7 @@ import mastercard from './assets/mastercard.png'
 const Payment = () => {
     return (
         <>
-            <div className='main'>
+            <div className='main w-full'>
                 <h1 className='text-h1'>Payment settings</h1>
                 <div className='bg-gradient-to-r from-[#4468A1] to-[#706a6a] gap-4 flex flex-col px-4 pt-8 w-full pb-12 md:w-full lg:w-full md:items-center'>
                     <h3 className="text-h3 text-white">Recent Status</h3>
