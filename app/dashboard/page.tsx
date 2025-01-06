@@ -26,7 +26,7 @@ const Dashboard = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] rounded-t-2xl p-4 w-full h-full -mt-10 flex flex-col gap-4'>
+                <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] rounded-t-2xl p-4 w-full h-full -mt-10 flex flex-col gap-4 lg:items-center '>
                     <h1 className='text-h1'> Popular Campaigns</h1>
                     <select name="categories" id="categories" className='px-4 py-4 text-p w-full rounded-xl border-r-8 border-transparent outline outline-neutral-700'>
                         <option value="categories">All categories</option>
@@ -58,7 +58,7 @@ const Dashboard = () => {
                         </div>
                     </div>
                 </div>
-                <button className='button'> See More Campaign </button>
+                <button className='button lg:max-w-[200px]'> See More Campaign </button>
             </div>
         </>
     )
