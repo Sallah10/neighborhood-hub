@@ -13,7 +13,7 @@ import star from '../assets/star.png'
 const CampaignDetails = () => {
     return (
         <>
-            <div className='main w-full mx-auto'>
+            <div className='main'>
                 <h1 className='text-h1'> Campaign Details </h1>
                 <div className='bg-gradient-to-r from-[#4468A1] to-[#706a6a] gap-4 flex flex-col px-4 pt-8 pb-12 md:w-full lg:w-full md:items-center'>
                     <h2 className='text-h2'> Fundraising for Ev Startup </h2>
@@ -25,7 +25,7 @@ const CampaignDetails = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2]  rounded-t-2xl p-4 w-full h-full -mt-10 flex flex-col gap-4'>
+                <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2]  rounded-t-2xl p-4 w-full h-full -mt-12 flex flex-col gap-4'>
                     <div className='bg-white flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full md:items-center'>
                         <Image src={img1} alt='card-image' width={600} height={800} className='max-w-full md:w-full' />
                         <div className='flex flex-col gap-4 pb-6 px-4'>
@@ -84,19 +84,19 @@ const CampaignDetails = () => {
                             <Image src={humImg2} alt='Campaign-Details Image' />
                             <h3 className='text-h3'>Alex Patrick</h3>
                             <p className='text-p'>Angel Investor & Founder of Aprilla Ev</p>
-                            <Image src={star} alt='Campaign-Details Image' />
+                            <Image src={star} alt='Campaign-Details Image' width={70} height={70} />
                         </div>
                         <div className='card mx-4'>
                             <Image src={humImg2} alt='Campaign-Details Image' />
                             <h3 className='text-h3'>Alex Patrick</h3>
                             <p className='text-p'>Angel Investor & Founder of Aprilla Ev</p>
-                            <Image src={star} alt='Campaign-Details Image' />
+                            <Image src={star} alt='Campaign-Details Image' width={70} height={70} />
                         </div>
                         <div className='card mx-4'>
                             <Image src={humImg2} alt='Campaign-Details Image' />
                             <h3 className='text-h3'>Alex Patrick</h3>
                             <p className='text-p'>Angel Investor & Founder of Aprilla Ev</p>
-                            <Image src={star} alt='Campaign-Details Image' />
+                            <Image src={star} alt='Campaign-Details Image' width={70} height={70} />
                         </div>
                     </div>
                 </div>
