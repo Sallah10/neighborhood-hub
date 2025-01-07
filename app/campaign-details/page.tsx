@@ -15,7 +15,7 @@ const CampaignDetails = () => {
         <>
             <div className='main'>
                 <h1 className='text-h1'> Campaign Details </h1>
-                <div className='bg-gradient-to-r from-[#4468A1] to-[#706a6a] gap-4 flex flex-col px-4 pt-8 pb-12 md:w-full lg:w-full md:items-center'>
+                <div className='bg-gradient-to-r from-[#4468A1] to-[#706a6a] gap-4 flex flex-col px-4 pt-8 pb-12 w-full items-center'>
                     <h2 className='text-h2'> Fundraising for Ev Startup </h2>
                     <div className='flex gap-4'>
                         <h3 className='text-h3 text-[#D2E892] mr-4 border-2 border-r-2 border-[#D2E892] p-2'>Total Investor: <span className='text-h2 text-white'>5</span></h3>
@@ -26,8 +26,8 @@ const CampaignDetails = () => {
                     </div>
                 </div>
                 <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2]  rounded-t-2xl p-4 w-full h-full -mt-12 flex flex-col gap-4'>
-                    <div className='bg-white flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full md:items-center'>
-                        <Image src={img1} alt='card-image' width={600} height={800} className='max-w-full md:w-full' />
+                    <div className='bg-white flex rounded-xl flex-col gap-4 max-w-[700px] md:items-center lg:mx-auto'>
+                        <Image src={img1} alt='card-image' width={600} height={800} className='w-full' />
                         <div className='flex flex-col gap-4 pb-6 px-4'>
                             <h2 className='text-h2 mx-2 md:self-center md:flex'>Raising Capital for inhouse Startup</h2>
                             <p className='text-p text-left md:text-justify'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, sapiente velit.as sunt quis voluptatum officiis voluptate molestiae provident delectus commodi repudiandae cumque. Autem, quasi.</p>
