@@ -21,13 +21,13 @@ const Home = () => {
             <h2 className="text-h3 text-[#D2DEF1] text-center border-t-2 pt-2 border-[#D2DEF1] w-full"> Withdrawal Amount</h2>
           </div>
         </div>
-        <div className='bg-white rounded-t-2xl p-4 w-full h-full -mt-12 flex flex-col gap-4'>
+        <div className='bg-white rounded-t-2xl p-4 w-full h-full -mt-12 flex flex-col items-center gap-4'>
           <h1 className='text-h1'> Popular Campaigns</h1>
-          <search className='px-4 py-4 text-p w-full rounded-xl border-r-8 border-transparent outline outline-[#D2DEF1]'> Search Campaigns</search>
-          <select name="categories" id="categories" className='px-4 py-4 text-p w-full rounded-xl border-r-8 border-transparent outline outline-[#D2DEF1]'>
+          <search className='px-4 py-4 text-p lg:w-[500px] rounded-xl border-r-8 border-transparent outline outline-[#D2DEF1]'> Search Campaigns</search>
+          <select name="categories" id="categories" className='px-4 py-4 text-p w-full lg:max-w-[500px] rounded-xl border-r-8 border-transparent outline outline-[#D2DEF1]'>
             <option value="categories">All categories</option>
           </select>
-          <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full px-4 py-4'>
+          <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 max-w-full lg:w-[500px] px-4 py-4 self-center'>
             <div className='flex gap-2'>
               <Image src={avatar} alt='card-image' width={600} className='w-[60px] h-[60px]' />
               <div className='flex flex-col gap-1'>
@@ -41,7 +41,7 @@ const Home = () => {
             <h3 className='text-[#364C6F]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptates, deserunt autem soluta labore, eius quo sequi quos id dignissimos rem! Autem dicta ut et eius facilis. Saepe, atque iusto.</h3>
             <button className='button text-[#364C6F] bg-[#D2E892] flex self-center'> View Details </button>
           </div>
-          <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 max-h-[100vh] max-w-full px-4 py-4'>
+          <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 lg:w-[500px] max-w-full px-4 py-4'>
             <div className='flex gap-2'>
               <Image src={avatar2} alt='card-image' width={600} className='w-[60px] h-[60px]' />
               <div className='flex flex-col gap-1'>
