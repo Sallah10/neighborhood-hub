@@ -7,7 +7,7 @@ import tick from './assets/check.png'
 const Success = () => {
     return (
         <>
-            <div className='rounded-2xl flex flex-col bg-[#EEEEEE] items-center py-6 px-2 w-full gap-4'>
+            <div className='rounded-2xl flex flex-col bg-[#EEEEEE] items-center py-6 px-2 w-full gap-4  lg:w-[700px] lg:self-center'>
                 <Image src={star} alt='sucess' className='' />
                 <Image src={tick} alt='sucess' className='-mt-16 mb-6' />
                 <h2 className='flex self-center text-h2'>Hurray You Transfered</h2>
