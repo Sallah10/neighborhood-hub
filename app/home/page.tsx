@@ -27,33 +27,35 @@ const Home = () => {
           <select name="categories" id="categories" className='px-4 py-4 text-p w-full lg:max-w-[500px] rounded-xl border-r-8 border-transparent outline outline-[#D2DEF1]'>
             <option value="categories">All categories</option>
           </select>
-          <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 max-w-full lg:w-[500px] px-4 py-4 self-center'>
-            <div className='flex gap-2'>
-              <Image src={avatar} alt='card-image' width={600} className='w-[60px] h-[60px]' />
-              <div className='flex flex-col gap-1'>
-                <h3 className='text-h3 text-black'>Ecommerce Platform</h3>
-                <h3 className='text-[#838383] text-lg'> Web Development</h3>
-                <p className='text-p text-green-500'>Raised of <span className='text-black text-h3'>85%</span></p>
+          <div className='grid grid-cols-1 lg:grid-cols-2 mt-6'>
+            <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 max-w-full lg:w-[500px] px-4 py-4 self-center'>
+              <div className='flex gap-2'>
+                <Image src={avatar} alt='card-image' width={600} className='w-[60px] h-[60px]' />
+                <div className='flex flex-col gap-1'>
+                  <h3 className='text-h3 text-black'>Ecommerce Platform</h3>
+                  <h3 className='text-[#838383] text-lg'> Web Development</h3>
+                  <p className='text-p text-green-500'>Raised of <span className='text-black text-h3'>85%</span></p>
+                </div>
               </div>
+              <p className='text-[#838383] text-lg'>September 23. 2024</p>
+              <Image src={cardImg} alt='card-image' width={600} className='rounded-md' />
+              <h3 className='text-[#364C6F]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptates, deserunt autem soluta labore, eius quo sequi quos id dignissimos rem! Autem dicta ut et eius facilis. Saepe, atque iusto.</h3>
+              <button className='button text-[#364C6F] bg-[#D2E892] flex self-center'> View Details </button>
             </div>
-            <p className='text-[#838383] text-lg'>September 23. 2024</p>
-            <Image src={cardImg} alt='card-image' width={600} className='rounded-md' />
-            <h3 className='text-[#364C6F]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptates, deserunt autem soluta labore, eius quo sequi quos id dignissimos rem! Autem dicta ut et eius facilis. Saepe, atque iusto.</h3>
-            <button className='button text-[#364C6F] bg-[#D2E892] flex self-center'> View Details </button>
-          </div>
-          <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 lg:w-[500px] max-w-full px-4 py-4'>
-            <div className='flex gap-2'>
-              <Image src={avatar2} alt='card-image' width={600} className='w-[60px] h-[60px]' />
-              <div className='flex flex-col gap-1'>
-                <h3 className='text-h3 text-black'>Ecommerce Platform</h3>
-                <h3 className='text-[#838383] text-lg'> Web Development</h3>
-                <p className='text-p text-green-500'>Raised of <span className='text-black text-h3'>85%</span></p>
+            <div className='bg-gradient-to-r from-[#F6F6F6] to-[#D0D7E2] flex rounded-xl flex-col gap-4 lg:w-[500px] max-w-full px-4 py-4'>
+              <div className='flex gap-2'>
+                <Image src={avatar2} alt='card-image' width={600} className='w-[60px] h-[60px]' />
+                <div className='flex flex-col gap-1'>
+                  <h3 className='text-h3 text-black'>Ecommerce Platform</h3>
+                  <h3 className='text-[#838383] text-lg'> Web Development</h3>
+                  <p className='text-p text-green-500'>Raised of <span className='text-black text-h3'>85%</span></p>
+                </div>
               </div>
+              <p className='text-[#838383] text-lg'>September 23. 2024</p>
+              <Image src={cardImg} alt='card-image' width={600} className='rounded-md' />
+              <h3 className='text-[#364C6F]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptates, deserunt autem soluta labore, eius quo sequi quos id dignissimos rem! Autem dicta ut et eius facilis. Saepe, atque iusto.</h3>
+              <button className='button text-[#364C6F] bg-[#D2E892] flex self-center'> View Details </button>
             </div>
-            <p className='text-[#838383] text-lg'>September 23. 2024</p>
-            <Image src={cardImg} alt='card-image' width={600} className='rounded-md' />
-            <h3 className='text-[#364C6F]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptates, deserunt autem soluta labore, eius quo sequi quos id dignissimos rem! Autem dicta ut et eius facilis. Saepe, atque iusto.</h3>
-            <button className='button text-[#364C6F] bg-[#D2E892] flex self-center'> View Details </button>
           </div>
         </div>
       </div>

@@ -28,7 +28,7 @@ const Signup = () => {
                 <small className='text-[#7A7B7E] text-lg'>
                     Already have an account? <a href="/login" className='ml-1 text-[#1A222E]'>Sign In</a>
                 </small>
-                <div className="flex items-center justify-between w-full mx-auto">
+                <div className="flex items-center justify-between w-full lg:w-[400px] mx-auto">
                     <hr className="w-full mr-4" />
                     <span className="text-gray-500 ">OR</span>
                     <hr className="w-full ml-4" />
