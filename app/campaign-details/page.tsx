@@ -9,7 +9,6 @@ import humImg2 from '../assets/humImg2.png'
 import message from '../assets/message.png'
 import star from '../assets/star.png'
 
-// creat them one by one
 const CampaignDetails = () => {
     return (
         <>

@@ -18,9 +18,9 @@ export default function Home() {
         </Link>
       </div>
       <div className="flex flex-col gap-4 self-center">
-        <Payment />
+        {/* <Payment />
         <Subscribe />
-        <Success />
+        <Success /> */}
       </div>
     </>
   );

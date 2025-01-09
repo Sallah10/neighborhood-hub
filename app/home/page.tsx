@@ -1,6 +1,4 @@
-// import React from 'react'
 import Image from 'next/image'
-// import img1 from '../assets/dash img1.png'
 import cardImg from '../assets/homeImage.png'
 import avatar from '../assets/avatar.png'
 import avatar2 from '../assets/avatar2.png'
